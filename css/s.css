@@ -1,0 +1,81 @@
+.im{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.milleneium{
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    margin: 5px;
+    color: black;
+}
+
+.one{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.na{
+    display:flex;
+    
+}
+
+
+  
+  .ligne-utilisateur {
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    }
+
+    .ligne-utilisateur:last-child {
+        border-bottom: 1px solid #dddddd;
+      }
+
+
+    
+    .tache, .rapport-item {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    .add-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .add-button:hover {
+        background-color: #555;
+    }
+
+    .tacherapport{
+            display: flex;
+            align-items: right;
+            justify-content: center;
+    }
+    .tache{
+        display: flex;
+        justify-content: center;
+        align-items: left;
+    }
+
+
+
+    
